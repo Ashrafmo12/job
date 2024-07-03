@@ -1,0 +1,193 @@
+.img1
+{
+    position: absolute;
+    width: 30pc;
+    left: 29.7pc;
+    height: 34pc;
+}
+.d1
+{
+    position: absolute;
+    left: 37pc;
+    width: 16pc;
+    height: 20pc;
+    background-color:#ffffff42;
+    top: 8pc;
+    border-radius: 28px;
+}
+.img2
+{
+    position: absolute;
+    left: -10pc;
+    height: 20pc;
+}
+.svg
+{
+   position: absolute;
+   right: 18.5pc;
+   top: 20pc;
+}
+.icon
+{
+    position: absolute;
+    right: 21.3pc;
+    top: 22.1pc;
+    width: 2pc;
+}
+.h1
+{
+    width: 9pc;
+    color: white;
+    padding-left: 1pc;
+    font-size: 1.3pc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 13pc;
+    top: 6pc;
+    font-weight: bold;
+    font-size: 17px;
+}
+.p1
+{
+    color: rgb(105, 99, 99);
+    font-family:sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 8pc;
+    left: 8.1pc;
+
+}
+.username
+{
+    background: url('icons/user-profile_14660.png') no-repeat scroll 10px 8px;
+    background-size: 9px;
+    padding-left: 25px;
+    position: absolute;
+    border-radius: 0.4pc;
+    border-color: transparent;
+    background-color:#5038ed18;
+    height: 22px;
+        width: 12pc;
+    left: 8pc;
+    top: 11pc;
+}
+.username::placeholder
+{
+    font-size:8px;
+    color: black;
+}
+.password
+{
+        background: url('icons/locked-computer.png') no-repeat scroll 10px 8px;
+        background-size: 10px;
+        padding-left: 25px;
+        position: absolute;
+        border-radius: 0.4pc;
+        border-color: transparent;
+        background-color:#5038ed18;
+        height: 22px;
+        width: 12pc;
+        left: 8pc;
+        top: 13.6pc;
+ }
+ .password::placeholder {
+     font-size: 8px;
+     color: black;
+ }
+ .b1
+ {
+    background-color: #646EFF;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px;
+        border-radius: 9px;
+        cursor: pointer;
+        position: absolute;
+        left: 13pc;
+        width: 4pc;
+        height: 2pc;
+        top: 17pc;
+ }
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.google-button
+{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 5px 11px;
+        font-size: 8px;
+        cursor: pointer;
+        position: absolute;
+        left: 8.5pc;
+        top: 23pc;
+        width: 14pc;
+}
+.facebook-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 11px;
+    font-size: 8px;
+    cursor: pointer;
+    position: absolute;
+        left: 8.5pc;
+        top: 26pc;
+        width: 14pc;
+    
+}
+
+.google-button img,
+.facebook-button img {
+    height: 20px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.line {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px auto;
+    width: 25%;
+    position: absolute;
+    top: 19.5pc;
+    left: 8pc;
+}
+
+.centered-text {
+    position: absolute;
+    color: rgb(82, 79, 79);
+    font-size: 13px;
+    background-color: #fff;
+    padding: 0 1px;
+    top: 20.2pc;
+    left: 15pc;
+}
+.p2
+{
+        position: absolute;
+            color: rgb(0, 0, 0);
+            font-size: 13px;
+            background-color: #fff;
+            padding: 0 1px;
+            top: 19.2pc;
+            left: 12.6pc;
+            width: 2.3pc;
+}
